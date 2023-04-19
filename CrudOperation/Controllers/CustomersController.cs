@@ -41,7 +41,7 @@ namespace CrudOperation.Controllers
             db.Entry(customer1).State = System.Data.Entity.EntityState.Modified;
             db.SaveChanges();
         }
-        //This method will delete a customer
+        //This method will delete a customers
        public string Delete(int id)
         {
             Customer customer = db.Customers.Find(id);
