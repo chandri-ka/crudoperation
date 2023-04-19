@@ -28,7 +28,7 @@ namespace CrudOperation.Controllers
             db.Customers.Add(customer);
             db.SaveChanges();
         }
-       //This method to Update a Customer
+       //This method to Update a Customers
       public void PUT(int id, Customer customer)
         {
             var customer1 = db.Customers.Find(id);
